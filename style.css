@@ -1,0 +1,237 @@
+header {
+    background-color: #e63946;
+    text-align: center;
+    padding: 20px;
+    overflow: auto;
+}
+
+header img {
+    width: 67px;
+    float: left;
+}
+
+header h1 {
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 25px;
+    float: left;
+}
+
+header nav {
+    display: flex;
+    font-weight: bold;
+    background-color: #e70316;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 19px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: #457b9d;
+}
+
+nav a:active {
+    background-color:#1d3557;
+}
+
+nav a:link {
+    background-color: #e63946;
+}
+
+main h2:first-of-type {
+    color: #e63946;
+    font-size: 35px;
+}
+
+.coverphoto img {
+    display: block; /* starts on a new line */
+    width: 100%; /* full width */
+    height: 400px; /* height of photo */
+}
+
+main {
+    width: 900px; /* width of the contents */
+    margin: 30px auto; /* horizontally centering the texts */
+    padding-top: 0; /* spacing inside the header */
+    padding-bottom: 0; 
+    padding-left: 10px;
+    padding-right: 10px; 
+    text-align: center; /* puts the text in the center */
+    border: 1px solid #ccc; /* the border is 1px, solid, and light gray */
+    background-color: #fff; /* the background color is white */
+    overflow: auto;
+    border-radius: 8px;
+}
+
+main h3 {
+    color: #e63946; /* the text is red */
+    margin-top: 30px; /* the space above the headings */
+}
+
+body {
+    font-family: Arial, sans-serif; /* the font is clean sans-serif */
+    background-color: #fff; /* the background color is white */
+    color: #333; /* the body text's color is gray */
+    margin: 0; 
+    padding: 0;
+}
+
+h2 { 
+    margin: 0;
+    padding: 10px;
+    color:#e63946;
+}
+
+h3 { 
+    margin: 0;
+    padding: 0;
+}
+
+h4 { 
+    margin: 0;
+    padding: 0;
+}
+
+p { 
+    margin: 0;
+    padding: 15px;
+    text-align: justify;
+    margin: auto;
+
+}
+
+ul { 
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li { 
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    margin: 20px auto; /* horizontally centering the texts */
+    border: 1px solid black; /* the border is 1px, solid, and black */
+    border: "1";
+    width: 80%; /* width of the table */
+}
+
+.references {
+    position: fixed; /* the text is fixed even when you are scrolling */
+    bottom: 0;
+    left: 0;
+    width: 300px;       
+    font-size: 12px;
+    background-color: #f9f9f9; 
+    border: 1px solid #ccc;    
+    padding: 10px;
+    overflow: auto;          
+    height: 200px;         
+}
+
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 1;
+    margin-top: 40px;
+}
+
+#source {
+    font-size: 12px;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+.solutionsmain {
+    margin-top: 30px;
+}
+
+.block {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.block img {
+    width: 267px;          
+    height: 234px;         
+    object-fit: cover;     
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.block p {
+    padding: 67px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.socialmediaaccounts {
+    display: flex;
+}
+
+.logo {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-size: 2008px 2008px;
+}
+
+.Instagram {
+	background: url(../images/logos.jpg) no-repeat -1104px -685px;
+	width: 245px;
+	height: 248px;
+}
+
+.Facebook {
+	background: url(../images/logos.jpg) no-repeat -1568px -1104px;
+	width: 148px;
+	height: 256px;
+}
+
+.igt{
+  width: 100px;
+  height: 100px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.igt:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(360deg);
+}
+
+.fbt{
+  width: 100px;
+  height: 100px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.fbt:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(360deg);
+}
+
+body {
+    background-color: #e66a75;
+}
