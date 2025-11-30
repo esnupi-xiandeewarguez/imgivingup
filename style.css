@@ -198,13 +198,13 @@ footer p {
 }
 
 .Instagram {
-	background: url(../images/logos.jpg) no-repeat -1104px -685px;
+	background: url(logos.jpg) no-repeat -1104px -685px;
 	width: 245px;
 	height: 248px;
 }
 
 .Facebook {
-	background: url(../images/logos.jpg) no-repeat -1568px -1104px;
+	background: url(logos.jpg) no-repeat -1568px -1104px;
 	width: 148px;
 	height: 256px;
 }
